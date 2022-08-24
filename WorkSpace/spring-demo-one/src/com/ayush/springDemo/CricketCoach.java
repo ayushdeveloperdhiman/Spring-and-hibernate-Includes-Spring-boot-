@@ -3,6 +3,8 @@ package com.ayush.springDemo;
 public class CricketCoach implements Coach{
 	
 	private FortuneService fortuneService;
+	
+	//add private fields for email address and team
 	private String emailAddress;
 	private String team;
 	
