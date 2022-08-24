@@ -3,6 +3,8 @@ package com.ayush.springDemo;
 public class CricketCoach implements Coach{
 	
 	private FortuneService fortuneService;
+	private String emailAddress;
+	private String team;
 	
 	
 	//Create no-arg constructor
@@ -26,5 +28,20 @@ public class CricketCoach implements Coach{
 		this.fortuneService = fortuneService;
 	}
 	
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+	
+	public void setTeam(String team) {
+		this.team = team;
+	}
+	
+	public String getEmailAddress() {
+		return this.emailAddress;
+	}
+	
+	public String getTeam() {
+		return this.team;
+	}
 
 }

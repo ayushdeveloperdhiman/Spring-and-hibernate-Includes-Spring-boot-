@@ -23,9 +23,7 @@ public class SpringHelloApp {
 	    System.out.println(theCoach1.getDailyFortune());
 	    System.out.println(theCoach1.getDailyFortune());
 	    
-	    Coach theCoach2 = context.getBean("myCoach2",Coach.class);
-	    System.out.println(theCoach2.getDailyWorkout());
-	    System.out.println(theCoach2.getDailyFortune());
+	    
 	    
 		//close the context
 	    context.close();
