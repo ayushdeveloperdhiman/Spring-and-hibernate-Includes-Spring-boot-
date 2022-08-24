@@ -1,0 +1,13 @@
+package com.ayush.springDemo;
+
+public class App {
+	
+	public static void main(String[] args) {
+		//Create object
+		
+		BasketballCoach theCoach = new BasketballCoach();
+		
+		//Use Object
+		System.out.println(theCoach.getDailyWorkout());
+	}
+}
