@@ -11,8 +11,7 @@
     <!-- Define the dependency -->
     
     <bean id="myFortune"
-          class="com.ayush.springDemo.HappyFortuneService"
-    >
+          class="com.ayush.springDemo.HappyFortuneService">
     </bean>
     
     <bean
@@ -28,6 +27,15 @@
          id="myCoach1"
          class="com.ayush.springDemo.SwimmingCoach">
          <constructor-arg ref="myFortune"/>
+    </bean>
+    
+    
+    
+    <bean id="myCoach2"
+          class="com.ayush.springDemo.CricketCoach">
+          
+          <!-- Setup our setter injection -->
+          <property name="fortuneService" ref="myFortune"/>
     </bean>
 </beans>
 
