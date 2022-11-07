@@ -1379,3 +1379,4 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runti
 	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:193) ~[na:na]
 	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:125) ~[na:na]
 	... 14 common frames omitted
+2022-11-07 08:53:06,451 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
