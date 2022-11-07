@@ -30,7 +30,7 @@ public class TrackCoach implements Coach {
 	}
 	
 	//add a destroy method
-	public void doCleanupStuff() {
+	private void doCleanupStuff() {
 		System.out.println("Inside methode: doCleanupStuff()");
 		
 	}
